@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<htm>
+  <head>
+    <meta charset="UTF-8">
+    <title>Kowsar Publisher Corporation</title>
+    <!-- Prefetch Style -->    
+    <link rel='stylesheet prefetch' href='css/angular/angular-material.css'>  
+  </head>
+
+  <body ng-app="kowsarApp" ng-controller="classifieds">
+    <div  layout="column" layout-align="center center" layout-fill="layout-fill">
+      <div layout="column" class="loginBox md-whiteframe-z1">
+        <md-toolbar>
+          <h2 class="md-toolbar-tools"><span>Login</span></h2>
+        </md-toolbar>
+        <md-content layout="column" class="md-padding">
+          <md-input-container>
+            <label>EmailAddress</label>
+            <input type="email" ng-model="username"/>
+          </md-input-container>
+          <md-input-container>
+            <label>Password</label>
+            <input type="password" ng-model="password"/>
+          </md-input-container>
+          <div layout="row" layout-align="center center" style="padding-top:20px;">
+            <md-button class="md-raised md-primary">Login</md-button>
+            <div flex="flex"></div>
+            <md-button href="" md-no-ink="md-no-ink">Forgot Password</md-button>
+          </div>
+        </md-content>
+      </div>
+    </div>
+
+    <!-- 
+    ============================================   
+      SCRIPTS [before body, load page faster]
+    ============================================ 
+    -->
+    <script src='modules/angular/hammer.js'></script>
+    <script src='modules/angular/angular.js'></script>
+    <script src='modules/angular/angular-animate.js'></script>
+    <script src='modules/angular/angular-aria.js'></script>
+    <script src='modules/angular/angular-material.js'></script>
+    <script src="scripts/app.js"></script>
+    <script src="components/classifieds.ctr.js"></script>
+    <script src="components/classifieds.fac.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.13.1/lodash.min.js"></script>
+    <script src="modules/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="components/exposer.js"></script>
+  </body>
+</html>

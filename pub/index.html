@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kowsar Publishing Corporation </title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <!--
+    ============================================   
+    # STYLE SHEETS
+    ============================================ 
+    -->
+    <link rel="icon" type="image/png" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon.ico">
+    <link rel='stylesheet prefetch' href='css/angular/angular-material.css'>
+    <link rel='stylesheet' href='css/mdi/materialdesignicons.css'>
+    <link rel='stylesheet' href='css/style.css'>
+  
+  </head>
+
+  <body ng-app="kowsarApp">
+    <ui-view></ui-view>
+    <!--
+    ============================================   
+    # SCRIPTS [before body, load page faster, Awesome]
+    ============================================ 
+    -->
+    <script src='modules/angular/hammer.js'></script>
+    <script src='modules/angular/angular.js'></script>
+    <script src='modules/angular/angular-animate.js'></script>
+    <script src='modules/angular/angular-aria.js'></script>
+    <script src='modules/angular/angular-material.js'></script>
+    <script src="scripts/app.js"></script>
+    <script src="components/classifieds/classifieds.ctr.js"></script>
+    <script src="components/classifieds/classifieds.fac.js"></script>
+    <script src="components/classifieds/new/classifieds.new.ctr.js"></script>
+    <script src="components/classifieds/edit/classifieds.edit.ctr.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.13.1/lodash.min.js"></script>
+    <script src="modules/angular-ui-router/release/angular-ui-router.min.js"></script>
+    
+  </body>
+</html>

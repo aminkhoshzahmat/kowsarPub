@@ -1,0 +1,46 @@
+ <!--
+    ============================================   
+    # SIDENAV and FORM
+    ============================================ 
+    -->
+    <md-sidenav class="md-sidenav-left md-whiteframe-z2"
+      md-component-id="left"
+      md-is-open="vm.sidenavOpen">
+      <md-toolbar>
+        <h1 class="md-toolbar-tools">Edit Classified </h1>
+      </md-toolbar>
+      <md-content layout-padding>
+     
+        <form>
+          <md-input-container>
+            <label for="title">title</label>
+            <input type="text" id="title"
+                   ng-model="vm.classified.title"
+                   md-autofocus>
+          </md-input-container>
+          <md-input-container>
+              <label for="price">price</label>
+              <input type="text" id="price"
+                     ng-model="vm.classified.price">
+          </md-input-container>
+          <md-input-container>
+              <label for="description">Description</label>
+              <textarea type="text" id="description"
+                        ng-model="vm.classified.desc"></textarea>
+          </md-input-container>
+          <md-input-container>
+              <label for="image">image</label>
+              <input type="text" id="image"
+                     ng-model="vm.classified.image">
+          </md-input-container>
+          <md-button class="md-primary md-raised"
+                      ng-click="vm.saveEdit(classified)">
+            Save Edit
+          </md-button>
+          <md-button class="md-warn md-raised"
+            ng-click="vm.closeSidebar()">
+            Cancel
+          </md-button>
+        </form>
+      </md-content>
+    </md-sidenav>

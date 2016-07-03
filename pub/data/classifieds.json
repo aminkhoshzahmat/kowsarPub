@@ -1,0 +1,182 @@
+[
+	{
+		"id"    : "1",
+		"title" : "E-Publishing",
+		"desc"  : "ATTENTIVE TECHNOLOGIES offers a comprehensive set of Prepress / Premedia contact production and E-publishing services. ATTENTIVE TECHNOLOGIES manages the entire typesetting, proofing and production ",
+		"price" : 250,
+		"posted": 1405981825679,
+		"views" : 50,
+		"image" : "assets/img/pub1.jpg",
+		"contact": {
+			"name": "Amin khoshzahmat",
+			"phone": "88287924",
+			"email": "aminkhoshzahmat@gmail.com"
+		},
+		"categories": [
+			"cat_1","cat_2"
+		]
+
+	},
+	{
+		"id"    : "2",
+		"title" : "Page Composition",
+		"desc"  : "provides flexible composition solutions for special-interest publications and scholarly journals. Our cutting-edge typesetting technology provides rapid turnaround at maximum cost ",
+		"price" : 450,
+		"posted": 1465581825679,
+		"views" : 1250,
+		"image" : "assets/img/pub2.jpg",
+		"contact": {
+			"name": "Amin khoshzahmat",
+			"phone": "88287924",
+			"email": "aminkhoshzahmat@gmail.com"
+		},
+		"categories": [
+			"cat_1","cat_2"
+		]
+
+	},
+	{
+		"id"    : "3",
+		"title" : "Scanning & Proofing",
+		"desc"  : "can handle scanning with flatbed scanners for cases of delicate / fragile documents, or where the books cannot be unbound. Scanned images are stored and converted into any file ",
+		"price" : 99,
+		"posted": 1465971825679,
+		"views" : 6786,
+		"image" : "assets/img/pub3.jpg",
+		"contact": {
+			"name": "Amin khoshzahmat",
+			"phone": "88287924",
+			"email": "aminkhoshzahmat@gmail.com"
+		},
+		"categories": [
+			"cat_1","cat_2"
+		]
+
+	},
+	{
+		"id"    : "4",
+		"title" : "Typesetting",
+		"desc"  : "specialize in scanning, image pulation, page composition and assembly, imposition, digital proofing, and digital file archiving. Our craftsmanship and dedication to excellence has earned ",
+		"price" : 20,
+		"posted": 1465381825679,
+		"views" : 75,
+		"image" : "assets/img/pub4.jpg",
+		"contact": {
+			"name": "Amin khoshzahmat",
+			"phone": "88287924",
+			"email": "aminkhoshzahmat@gmail.com"
+		},
+		"categories": [
+			"cat_1","cat_2"
+		]
+
+	},
+	{
+		"id"    : "5",
+		"title" : "XML & HTML Tagging",
+		"desc"  : "conversion executives, we can convert any unstructured data into structured XML & HTML format of any publications. Our team can recognize file ",
+		"price" : 78,
+		"posted": 1465981625679,
+		"views" : 758,
+		"image" : "assets/img/pub5.jpg",
+		"contact": {
+			"name": "Amin khoshzahmat",
+			"phone": "88287924",
+			"email": "aminkhoshzahmat@gmail.com"
+		},
+		"categories": [
+			"html","cat_2"
+		]
+
+	},
+	{
+		"id"    : "6",
+		"title" : "Graphic & Image Procassets/img/pub.jpgessing",
+		"desc"  : "With the support of advanced techniques, imaging platforms, graphic formats, and software technologies, we can provide you cost-effective solutions in image procassets/img/pub.jpgessing services. At ATTENTIVE TECHNOLOGIES, w",
+		"price" : 99,
+		"posted": 1465981325679,
+		"views" : 75,
+		"image" : "assets/img/pub6.jpg",
+		"contact": {
+			"name": "Amin khoshzahmat",
+			"phone": "88287924",
+			"email": "aminkhoshzahmat@gmail.com"
+		},
+		"categories": [
+			"cat_1","Website"
+		]
+
+	},
+	{
+		"id"    : "7",
+		"title" : "Website Design & Development",
+		"desc"  : "We offer tailor-made web design packages and web solutions for your website that compliments your business plan or marketing strategy right from generating the basic concepts, navigation structures, design styles to the complete",
+		"price" : 120,
+		"posted": 1465981125679,
+		"views" : 578,
+		"image" : "assets/img/pub7.jpg",
+		"contact": {
+			"name": "Amin khoshzahmat",
+			"phone": "88287924",
+			"email": "aminkhoshzahmat@gmail.com"
+		},
+		"categories": [
+			"cat_1","computers"
+		]
+
+	},
+	{
+		"id"    : "8",
+		"title" : "Mobile Application Development",
+		"desc"  : "We offer comprehensive mobile development solutions for portals (both mobile web and native mobile applications), which makes portal data spontaneously available from smartphones and tablets, improves contact and data availabilit",
+		"price" : 50,
+		"posted": 1465981525679,
+		"views" : 453,
+		"image" : "assets/img/pub8.jpg",
+		"contact": {
+			"name": "Amin khoshzahmat",
+			"phone": "88287924",
+			"email": "aminkhoshzahmat@gmail.com"
+		},
+		"categories": [
+			"cat_1","cat_2"
+		]
+
+	},
+	{
+		"id"    : "9",
+		"title" : "Graphic & Logo Designs",
+		"desc"  : "s portal data spontaneously available from smartphones and tablets, improves contact and data availability and leverages portal services delivery. To increase local accessibility, we deliver portal data and contact synchronization",
+		"price" : 40,
+		"posted": 1465981855679,
+		"views" : 786,
+		"image" : "assets/img/pub9.jpg",
+		"contact": {
+			"name": "Amin khoshzahmat",
+			"phone": "88287924",
+			"email": "aminkhoshzahmat@gmail.com"
+		},
+		"categories": [
+			"cat_1","veh"
+		]
+
+	},
+	{
+		"id"    : "10",
+		"title" : "Hosting & Domain Registration",
+		"desc"  : "We help our clients to develop and sustain an impressive online presence in the digital world. Our specialized team of web designers and web developers offer you a wide array of solutions to enhance your customers’ user experience. ",
+		"price" : 55,
+		"posted": 1465981825619,
+		"views" : 454,
+		"image" : "assets/img/pub10.jpg",
+		"contact": {
+			"name": "Amin khoshzahmat",
+			"phone": "88287924",
+			"email": "aminkhoshzahmat@gmail.com"
+		},
+		"categories": [
+			"cat_1","Computers"
+		]
+
+	}
+]

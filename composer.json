@@ -1,0 +1,14 @@
+{
+    "name": "amin/composer-twig",
+    "authors": [
+        {
+            "name": "Amin Khoshzahmat",
+            "email": "aminkhoshzahmat@gmail.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^1.20",
+        "endel/slim": "^2.4",
+        "twig/twig": "^1.24"
+    }
+}

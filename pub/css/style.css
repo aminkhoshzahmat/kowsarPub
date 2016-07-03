@@ -1,0 +1,27 @@
+button .material-icons{ margin-top: 7px; }
+
+.menu-toolbar button { color: #888 !important; }
+
+md-sidenav, md-backdrop { position: fixed !important; }
+
+md-toast { position: fixed; }
+
+.classified.ng-enter, .classified.ng-move {
+	transition: 0.4s all;
+	opacity: 0;
+}
+
+.classified.ng-enter.ng-enter-active, .classified.ng-move.ng-move-active {
+	opacity: 1;
+}
+
+.classified.ng-leave {
+	animation: 0.4s fade_classified;
+}
+
+
+@keyframes fade_classified {
+	from { opacity: 0; }
+	ro   { opacity: 1; }
+
+}
