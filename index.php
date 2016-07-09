@@ -13,7 +13,7 @@ set_include_path("build/classes" . PATH_SEPARATOR . get_include_path());
 <!DOCTYPE html>
 <html>
 <head>
-	<title>PROPEL CHANGED</title>
+	<title>PROPEL Master</title>
 	<link rel="stylesheet" href="css/composerTwig.css">
 </head>
 <body>
