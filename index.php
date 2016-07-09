@@ -21,7 +21,7 @@ set_include_path("build/classes" . PATH_SEPARATOR . get_include_path());
 		<ul>
 			<li><a href="index.php">C.R.U.D</a></li>
 			<li><a href="twig.php">Twig</a></li>
-			<li><a href="index.php">Validators</a></li>
+			<li><a href="index.php">Validators </a></li>
 		</ul>
 	</nav>
 	
