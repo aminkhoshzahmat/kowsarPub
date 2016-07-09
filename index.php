@@ -9,23 +9,6 @@ Propel::init("build/conf/legacyapp-conf.php");
 // Add the generated 'classes' directory to the include path
 set_include_path("build/classes" . PATH_SEPARATOR . get_include_path());
 
-// try {
-//     $dbh = new PDO('mysql:host=localhost;dbname=amin', 'root', '1');
-//     foreach($dbh->query('SELECT * from users') as $row) {
-//         print_r($row);
-//     }
-
-//    // $dbh->query("INSERT INTO users VALUES('','dude','maniac')");
-
-//     $dbh = null;
-// } catch (PDOException $e) {
-//     print "Error!: " . $e->getMessage() . "<br/>";
-//     die();
-// }
-
-// $firstAuthor = usersQuery::create()->findPK(47);
-// echo $firstAuthor;
-
 ?>
 <!DOCTYPE html>
 <html>
@@ -37,7 +20,7 @@ set_include_path("build/classes" . PATH_SEPARATOR . get_include_path());
 	<nav class="clearFix">
 		<ul>
 			<li><a href="index.php">C.R.U.D</a></li>
-			<li><a href="index.php">Relationships</a></li>
+			<li><a href="twig.php">Twig</a></li>
 			<li><a href="index.php">Validators</a></li>
 		</ul>
 	</nav>
@@ -45,6 +28,16 @@ set_include_path("build/classes" . PATH_SEPARATOR . get_include_path());
 	<!--
 	==============================================================
 	-->
+	<section>
+		<?php
+		$loader = new Twig_Loader_Array(array(
+		    'index' => 'Hello {{ name }}!',
+		));
+		$twig = new Twig_Environment($loader);
+
+		echo $twig->render('index', array('name' => 'Fabien'));
+		?>
+	</section>	
 	<section class="clearFix">
 		<h2>
 			Creating Rows
@@ -166,11 +159,8 @@ set_include_path("build/classes" . PATH_SEPARATOR . get_include_path());
 			    echo $authors;<br>
 			</code>
 		</div>
-
-
-
 	</section>
-	
+
 	<!--
 	==============================================================
 	-->
