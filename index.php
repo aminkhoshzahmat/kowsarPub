@@ -24,7 +24,8 @@ set_include_path("build/classes" . PATH_SEPARATOR . get_include_path());
 			<li><a href="index.php">Validators</a></li>
 		</ul>
 	</nav>
-	<h1>Basic C.R.U.D. Operations</h1>
+	
+	<h3>Basic C.R.U.D. Operations</h3>
 	<!--
 	==============================================================
 	-->
