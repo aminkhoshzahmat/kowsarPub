@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database name="amin" defaultIdMethod="native">
+  <table name="users" phpName="users">
+    <column name="user_id" type="integer" required="true" primaryKey="true" autoIncrement="true"/>
+    <column name="user_name" type="varchar" size="30" required="true" />
+    <column name="user_family" type="varchar" size="40"/>
+  </table>
+    <table name="admins" phpName="admins">
+    <column name="admin_id" type="integer" required="true" primaryKey="true" autoIncrement="true"/>
+    <column name="admin_name" type="varchar" size="30" required="true" />
+    <column name="admin_family" type="varchar" size="40"/>
+  </table>
+</database>
